@@ -1,0 +1,23 @@
+.postbox{
+	margin-left: 55px;
+	background-color: #F2F2F2;
+	padding: 10px;
+	border-radius: 5px;
+	width: 80%;
+	margin-bottom: 15px;
+}
+.postbox form{
+	width: 90%;
+	margin:10px;
+}
+.postbox input{
+	padding: 5px;
+	margin:10px;
+}
+.postbox textarea{
+	min-height: 200px;
+	height: auto;
+	padding: 5px;
+	margin:10px;
+	border-radius: 5px;
+}

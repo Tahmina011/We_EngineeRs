@@ -1,0 +1,48 @@
+.box{
+	background-color: #E1E2E6;
+	border-radius: 15px;
+	padding: 10px;
+	min-height: 150px;
+	width: 90%;
+	margin: 20px;
+	box-sizing: border-box;
+	box-shadow: 2px gray;
+
+}
+.box h4{
+	text-align: center;
+	font-family: Arial;
+	word-spacing: 10px;
+	color: #1E3B59;
+}
+.box h5{
+	font-family: Arial;
+	word-spacing: 10px;
+	color: #1E3B59;
+	float: left;
+}
+.box p{
+	word-spacing: 7px;
+	line-height: 1.6em;
+	font-family: Arial;
+	font-size: 16px;
+	color: black;
+}
+.box input[type=text] {
+  padding: 6px;
+ margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  min-height: 25px;
+  float: left;
+}
+.boxans{
+	background-color:white ;
+	border-radius: 15px;
+	padding: 10px;
+	min-height: 90px;
+	width: 90%;
+	margin: 20px;
+	box-sizing: border-box;
+	box-shadow: 2px gray;
+}

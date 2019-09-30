@@ -1,0 +1,142 @@
+
+.wrap {
+  width: 90%;
+  height: auto;
+  /*margin: 10px auto;*/
+color: black;
+  border: 1px solid #cbcbcb;
+  background: white;
+}
+/*
+* COMMENT FORM
+**/
+.comment_form {
+  background-color: #DBDDE0;
+    color: black;
+  width: 90%;
+  margin: 10px auto;
+  padding: 20px;
+ 
+}
+.comment_form form{
+ color: black;
+}
+ .comment_form label {
+  display: block;
+  margin: 5px 0px 5px 0px;
+}
+.comment_form input[type="text"]{
+  padding: 5px;
+  width: 95%;
+  /*background-color: #E1E2E6;*/
+}
+.comment_form textarea {
+  padding: 5px;
+  width: 95%;
+  min-height: 150px;
+ /* background-color: #E1E2E6;*/
+  }
+#submit_btn, #update_btn {
+  padding: 8px 15px;
+  color: white;
+  background: #339;
+  border: none;
+  border-radius: 4px;
+  margin-top: 10px;
+  width: auto;
+}
+#update_btn {
+  background: #1c7600;
+}
+/*
+* COMMENT DISPLAY AREA
+**/
+#display_area {
+  width: 90%;
+  padding: 20px;
+  margin: 20px auto;
+  background-color: #DBDDE0;
+
+}
+.comment_box {
+  cursor: default;
+  margin: 20px;
+  border: 1px solid #cbcbcb;
+  padding: 25px;
+  position: relative;
+  color: black;
+  min-height: 0px; 
+  display: flex;
+  z-index: 0;
+  /*background-image: url('boyG6k1.jpg');
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+  background-color: #E6CAA2;
+  border-radius: 10px;
+}
+.delete {
+  position: absolute;
+  top: 0px;
+  right: 3px;
+  color: black;
+  display: none;
+  padding-top: 5px;
+  cursor: pointer;
+}
+.edit {
+  position: absolute;
+  top: 0px;
+  right: 45px;
+  padding: 5px;
+  color: black;
+  display: none;
+  cursor: pointer;
+}
+.comment_box:hover .edit, .comment_box:hover .delete {
+  display: block;
+  color: blue;
+}
+.comment_text {
+  text-align: justify;
+}
+.display_name {
+  color: blue;
+  padding: 0px;
+  margin: 0px 0px 5px 0px;
+}
+.box{
+  background-color: #E1E2E6;
+  border-radius: 15px;
+  padding: 10px;
+  min-height: 450px;
+  width: 95%;
+  margin-left: 20px;
+  margin-right: 20px;
+  box-sizing: border-box;
+  box-shadow: 2px gray;
+  margin-bottom: 20px;
+
+}
+.box h1{
+  text-align: center;
+  font-family: Arial;
+  word-spacing: 10px;
+  color: #1E3B59;
+}
+.box img{
+  width: 45%;
+  height: 320px;
+  border-radius: 10px;
+  box-shadow: gray;
+  float: left;
+  margin-right: 20px;
+}
+.box p{
+  word-spacing: 7px;
+  line-height: 1.6em;
+  font-family: Arial;
+  font-size: 16px;
+  color: black;
+}

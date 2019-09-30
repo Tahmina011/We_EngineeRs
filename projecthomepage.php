@@ -1,0 +1,9 @@
+<?php
+	include('projectheader.php');
+?>
+<?php
+include('homepage.php');
+?>
+<?php
+	include('projectfooter.php');
+?>
